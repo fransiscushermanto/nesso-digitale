@@ -19,6 +19,13 @@ This is a submission for the project.
     ```
     Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+4. **Build and run server:**
+    ```bash
+    yarn build
+    yarn start
+    ```
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
 ## Key Technical Decisions & Trade-offs
 
 This section outlines the key technical decisions and trade-offs made during the development of this project.
@@ -74,5 +81,18 @@ By using `clamp`, we don't need to rely on `breakpoints` because it hurt so much
 
 - **Footer**
   - On mobile and tablet screen, I make the orientation become vertical so it has space for the text and menu.
+
+# Pagespeed result
+
+**Live:** https://nesso-digitale.vercel.app/
+<br>
+**Result:** https://pagespeed.web.dev/analysis/https-nesso-digitale-vercel-app/loi034c58e?form_factor=mobile 
+
+## Desktop
+<img width="1926" height="990" alt="image" src="https://github.com/user-attachments/assets/a11f4379-2586-4369-8d96-4239790fcc78" />
+
+## Mobile
+<img width="1924" height="984" alt="image" src="https://github.com/user-attachments/assets/9156eb47-9fed-457a-8d2f-733502ba2cf7" />
+
 
 ---
