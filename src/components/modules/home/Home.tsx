@@ -1,16 +1,17 @@
+import dynamic from "next/dynamic";
+
 import { cx } from "@styled-system/css";
 
-import {
-  SectionAboutUs,
-  SectionConsult,
-  SectionIntroduction,
-  SectionPortfolio,
-  SectionResults,
-  SectionServices,
-  SectionSolutions,
-} from "./sections";
+import { SectionIntroduction } from "./sections";
 
 import { homeCss } from "./styles";
+
+const SectionAboutUs = dynamic(() => import("./sections/about-us"));
+const SectionServices = dynamic(() => import("./sections/services"));
+const SectionPortfolio = dynamic(() => import("./sections/portfolio"));
+const SectionResults = dynamic(() => import("./sections/results"));
+const SectionSolutions = dynamic(() => import("./sections/solutions"));
+const SectionConsult = dynamic(() => import("./sections/consult"));
 
 const Home = () => {
   return (

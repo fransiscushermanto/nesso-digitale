@@ -12,9 +12,13 @@ const Footer = () => {
     <footer className={cx("footer", "container", footerCss)}>
       <div className="inner-footer">
         <section className="footer__profile">
-          <a className="footer__profile__logo">
+          <Link
+            href="/"
+            className="footer__profile__logo"
+            aria-label="nesso digitale"
+          >
             <Logo />
-          </a>
+          </Link>
           <p className="footer__profile__motto">
             Costruiamo soluzioni digitali che semplificano il lavoro, un
             progetto alla volta.

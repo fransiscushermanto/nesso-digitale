@@ -28,10 +28,16 @@ export const introductionCss = css({
 
           "&-object": {
             position: "absolute",
-            width: "600px",
-            height: "518px",
-            top: "23%",
+            top: "clamp(0.65625rem, -0.17554797535211264rem + 3.5490046948356806vw, 3.01855625rem)",
             left: "80%",
+
+            width:
+              "clamp(18.75rem, 12.147887323943662rem + 28.169014084507044vw, 37.5rem)",
+            height: "518px",
+
+            "@media (max-width: 425px)": {
+              left: "95%",
+            },
 
             xl: {
               left: "100%",

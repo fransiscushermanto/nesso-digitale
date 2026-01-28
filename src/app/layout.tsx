@@ -11,6 +11,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: "Nesso Digitale Lab",
+  description: "Software su misura per imprese & Sviluppatori on-demand",
 };
 
 export default function RootLayout({
